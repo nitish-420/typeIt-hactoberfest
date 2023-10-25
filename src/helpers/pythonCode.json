@@ -75,7 +75,30 @@
         "while head.next: ",
         "ans += 1 ",
         "head = head.next ",
-        "return ans "
-
+        "return ans ",
+        "file = open('input.txt', 'r+') ",
+        "wr = open('output.txt', 'r+') ",
+        "arr = file.readlines() ",
+        "arr = [i.strip() for i in arr] ",
+        "try: ",
+        "print(0/0) ",
+        "except Exception as e: ",
+        "print(e) ",
+        "else: ",
+        "print(\"No exception in this \") ",
+        "finally: ",
+        "print(\"This will run in every case \") ",
+        "t = s.lstrip('0') ",
+        "s = sys.argv ",
+        "print(ord('a')) ",
+        "print(chr(92)) ",
+        "print('%.2f'%a) ",
+        "alphabets = {chr(i+97):i+1 for i in range(26)} ",
+        "dp = [[0 for _ in range(n)] for _ in range(n)] ",
+        "import tkinter ",
+        "window = tkinter.Tk() ",
+        "window.mainloop() ",
+        "global x,y ",
+        "nonlocal x,y "
     ]
 }
